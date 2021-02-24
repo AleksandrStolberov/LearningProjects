@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FragmentHomeWork</string>
+    <string name="text_entry">Пожалуйста, авторизуйтесь.</string>
+    <string name="text_email">Введите email</string>
+    <string name="text_password">Введите пароль</string>
+    <string name="text_check">Я принимаю условия соглашения.</string>
+    <string name="text_button">Войти</string>
+    <string name="text_login">Вы успешно вошли!</string>
+    <string name="switch_text">Чужой компьютер</string>
+    <string name="radio1">Опция 1</string>
+    <string name="radio2">Опция 2</string>
+    <string name="longButton">Начать долгую операцию</string>
+    <string name="secondText">Окно вызова</string>
+    <string name="hintPhone">Введите номер телефона</string>
+    <string name="buttonPhone">Позвонить</string>
+    <string name="button_1">button 1</string>
+    <string name="button_2">button 2</string>
+    <string name="button_3">button 3</string>
+    <string name="text1">Горные реки… Они шумят так громко, что порой сложно их перекричать, разговаривая с кем-то. Потом перестаешь замечать этот шум, и воздух наполняется звенящей горной тишиной, пением птиц и желанием закрыть глаза и наслаждаться этим.</string>
+    <string name="text4">Что такое бухта? Интересный вопрос. Во-первых, бухта – это разновидность залива. Во-вторых, под бухтой следует понимать часть моря, залива, озера, водохранилища или иного водоёма, обособленную от открытых вод частями суши.</string>
+    <string name="text3">Водопады возникают преимущественно в горной местности. Их образуют быстрые горные реки, которые разрушают породу. В результате постепенно возникает перепад в высотах. У подножья горы образуется природный водоем.</string>
+    <string name="text2">Высоко в горах был старый-старый мост. По нему никто уже не ходил – боялись. Потому что с моста осыпались камни. Но постоять возле него, и посмотреть вниз было очень приятно. Пугала и манила опасность. Опасность бывает сладкой.</string>
+    <string name="name1">Горные реки</string>
+    <string name="name2">Мост в горах</string>
+    <string name="name3">Водопады</string>
+    <string name="name4">Бухта</string>
+    <string name="generate">сгенерировать событие</string>
+    <string name="sorted">Фильтрация по тегам</string>
+    <string name="tag1">Реки</string>
+    <string name="tag2">Горы</string>
+    <string name="tag3">Водопады</string>
+    <string name="tag4">Бухты</string>
+
+</resources>

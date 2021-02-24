@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ViewModelAndNavigation</string>
+
+    <string name="vehicle">Выберите тип транспорта</string>
+    <string name="vehicle_par">Заполните информацию</string>
+    <string name="edit_car">Model: </string>
+    <string name="car_speed">Max speed: </string>
+    <string name="car_door">Door count: </string>
+    <string name="plane_height">Max height: </string>
+    <string name="photo1">Picture 1</string>
+    <string name="photo2">Picture 2</string>
+    <string name="the_list_is_empty">The list is empty</string>
+    <string name="ok">Применить</string>
+    <string name="text_view">Выберите тип отображения списка</string>
+    <string name="linear_layout_btn">Linear Layout</string>
+    <string name="grid_layout_btn">Grid Layout</string>
+    <string name="staggered_grid_layout_btn">Staggered Grid Layout</string>
+    <string name="text_detail_model">Модель:</string>
+    <string name="text_speed_details">Максимальная скорость:</string>
+</resources>

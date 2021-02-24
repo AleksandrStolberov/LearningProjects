@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/vehicleFragment">
+
+    <fragment
+        android:id="@+id/vehicleFragment"
+        android:name="com.skillbox.listsecond.viewmodelandnavigation.VehicleFragment"
+        android:label="VehicleFragment"
+        tools:layout="@layout/fragment_vehicle">
+        <action
+            android:id="@+id/action_vehicleFragment_to_detailsVehicleFragment"
+            app:destination="@id/detailsVehicleFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsVehicleFragment"
+        android:name="com.skillbox.listsecond.viewmodelandnavigation.DetailsVehicleFragment"
+        android:label="DetailsVehicleFragment"
+        tools:layout="@layout/fragment_vehicle_details">
+        <argument
+            android:name="model"
+            app:argType="string" />
+        <argument
+            android:name="picture"
+            app:argType="string" />
+        <argument
+            android:name="speed"
+            app:argType="string" />
+    </fragment>
+</navigation>

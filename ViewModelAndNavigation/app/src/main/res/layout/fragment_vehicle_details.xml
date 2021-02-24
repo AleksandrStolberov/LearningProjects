@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FADCDC"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/detailsImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_detail_model"
+        android:textColor="#1E1C1C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/detailModelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="#7A0505"
+        android:textSize="30sp"
+        tools:text="BMW" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_speed_details"
+        android:textColor="#272525"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/detailSpeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="#7A0505"
+        android:textSize="30sp"
+        tools:text="250 km/h" />
+
+</LinearLayout>

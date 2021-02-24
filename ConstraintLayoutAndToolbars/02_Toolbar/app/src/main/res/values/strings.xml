@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToolbarHomeWork</string>
+    <string name="textView">Welsh Corgis have historically been used as herding dogs, specifically for cattle. They are of the type of herding dog referred to as heelers, meaning that they would nip at the heels of the larger animals to keep them on the move. Both Pembrokeshire and Cardigan are historically agricultural areas of Wales. The combination of their low height off the ground and innate agility of Welsh Corgis would allow them to avoid the hooves of cattle.There is also a folk legend that says Corgis were a gift from the woodland fairies, and that the breeds markings were left on its coat by fairy harnesses and saddles; however, the origins of this legend are dubious.</string>
+    <string name="addButton">add text</string>
+    <string name="button_text">delete text</string>
+    <string name="setting">Setting</string>
+    <string name="param1">Param1</string>
+    <string name="param2">Param2</string>
+    <string name="search">Search</string>
+</resources>

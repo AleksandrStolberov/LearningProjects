@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidView</string>
+    <string name="text_entry">Пожалуйста, авторизуйтесь.</string>
+    <string name="text_email">Введите email</string>
+    <string name="text_password">Введите пароль</string>
+    <string name="text_check">Я принимаю условия соглашения.</string>
+    <string name="text_button">Войти</string>
+    <string name="text_login">Вы успешно вошли!</string>
+    <string name="switch_text">Чужой компьютер</string>
+    <string name="radio1">Опция 1</string>
+    <string name="radio2">Опция 2</string>
+    <string name="longButton">Начать долгую операцию</string>
+</resources>

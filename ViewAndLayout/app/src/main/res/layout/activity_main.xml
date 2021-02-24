@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF7CC">
+
+    <LinearLayout
+        android:id="@+id/linearText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBF7CC"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="@string/text_entry"
+            android:textColor="#E45151"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkboxView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_check" />
+
+        <Button
+            android:id="@+id/buttonEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#9C9CE3"
+            android:enabled="false"
+            android:text="@string/text_button" />
+
+    </LinearLayout>
+</ScrollView>

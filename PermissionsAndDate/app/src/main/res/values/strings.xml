@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PermissionsAndDate</string>
+    <string name="text_location">Для отображения списка локаций необходимо разрешение</string>
+    <string name="text_btn1">Разрешить</string>
+    <string name="location_btn">Получить локацию</string>
+    <string name="text_no_location">Нет локаций для отображения</string>
+</resources>
